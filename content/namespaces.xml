@@ -1,0 +1,97 @@
+<Root>
+
+
+    <!-- Tag con contenido -->
+    <MyTag>
+        <!-- Contenido del tag -->
+    </MyTag>
+
+    <!-- Tag sin contenido -->
+    <MyOtherTag />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Tag con namespace -->
+    <School:Person>
+
+    </School:Person>
+
+
+    <!-- Tag con atributos con namespace -->
+    <Employee job:position="Director" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- En android: -->
+    <TextView
+        android:text="Hola App"/>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+    <!-- Definimos la ubicacion de un namespace -->
+   <School:Person xmlns:School="http://platzi.com">
+        <!--  -->
+   </School:Person>     
+</Root>
