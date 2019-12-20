@@ -16,11 +16,11 @@
 
     <EditText
         android:id="@+id/etLoginUsername"
+        style="@style/AppTheme.EditTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:drawableStart="@drawable/vector_person"
-        android:drawablePadding="12dp"
         android:hint="@string/hint_usuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,11 +28,11 @@
 
     <EditText
         android:id="@+id/editText"
+        style="@style/AppTheme.EditTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:drawableStart="@drawable/vector_lock"
-        android:drawablePadding="12dp"
         android:hint="@string/hint_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
